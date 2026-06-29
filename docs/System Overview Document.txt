@@ -1,0 +1,9 @@
+Player Unit: vest + gun with IR LED + IR sensor  microcontroller
+Base Station: ESP32-S3 Feather acting as GameController
+Communication: 240 MHz IR pulses (simulated in code with instant hit detection)
+Game Rules:
+– 100 HP, 20 damage per hit
+– 30-shot magazine, 2-second reload
+– 5-second respawn after death
+– +100 points per elimination
+– 10-minute round
